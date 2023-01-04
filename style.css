@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: bisque;
+}
+div{
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+th, td{
+    border-style: dotted;
+}
+
+p{
+    font-size: 20px;
+}
+
+.food-menu{
+    background-color: #ffde59;
+}
+
+.food-menu img{
+    margin-left: 20%;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .food-menu{
+        height: 100vh;
+        width: 100vw;
+    }
+    .food-menu img{
+        width: 80%;
+        margin-top: 60%;
+        margin-left: 50px;
+    }
+    
+    .food-menu h2{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .intro{
+        font-size: 15px;
+        text-align: center;
+        margin-top: -50px;
+    }
+    
+    .corn-1{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .corn-1 img{
+        margin-left: 50px;
+        margin-top: -70px;
+        width: 80%;
+    }
+
+    .corn-1 h4{
+        text-align: center;
+        margin-top: -90px;
+    }
+    
+    .corn-1 h6{
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .corn-q{
+        margin-top: 5px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 5px;
+        text-align: justify;
+    }
+
+    .desc h3{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .desc > p{
+        margin-top: 10px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 10px;
+        text-align: justify;
+}
+
+    .capsicum{
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .capsicum img{
+        margin-left: -90px;
+        margin-top: -50px;
+    
+    }
+    
+    .capsicum h4{
+        text-align: center;
+        margin-top: -130px;
+    }
+
+    .green-chilliess{
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .green-chilliess img{
+        width: 100%;
+    
+    }
+    
+    .green-chilliess h4{
+        text-align: center;
+        margin-top: -100px;
+    }
+
+    .chaat{
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .chaat img{
+        width: 100%;
+    }
+    
+    .chaat h4{
+        text-align: center;
+        margin-top: -90px;
+    }
+
+    .red-powder{
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .red-powder img{
+        width: 100%;
+    }
+    
+    .red-powder h4{
+        text-align: center;
+        margin-top: -90px;
+    }
+    
+    .onion{
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .onion img{
+        width: 100%;
+    }
+    
+    .onion h4{
+        text-align: center;
+        margin-top: -90px;
+    }
+
+    .coriander-leaves{
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .coriander-leaves img{
+        width: 100%;
+    }
+    
+    .coriander-leaves h4{
+        text-align: center;
+        margin-top: -50px;
+    }
+
+    .salt{
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .salt img{
+        width: 100%;
+    }
+    
+    .salt h4{
+        text-align: center;
+        margin-top: -50px;
+    }
+
+    .lemon{
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .lemon img{
+        width: 100%;
+    }
+    
+    .lemon h4{
+        text-align: center;
+        margin-top: -30px;
+    }
+    
+    .mayo{
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .mayo img{
+        width: 100%;
+    }
+    
+    .mayo h4{
+        text-align: center;
+        margin-top: -20px;
+    }
+
+    .ketchup{
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .ketchup img{
+        width: 100%;
+    }
+    
+    .ketchup h4{
+        text-align: center;
+        margin-top: -20px;
+    }
+
+    .nachos{
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .nachos img{
+        width: 100%;
+    }
+    
+    .nachos h4{
+        text-align: center;
+        margin-top: -20px;
+    }
+}
+
+
+.desc{
+    background-color: bisque;
+}
+
+
+.corn-1{
+    background-color: #ffff8b;
+}
+
+.capsicum{
+    background-color: #9ca569;
+}
+
+.green-chilliess{
+    background-color: #9ca561;
+}
+
+.chaat{
+    background-color: #be9a79;
+}
+
+.red-powder{
+    background-color: #c2a785;
+}
+
+
+.onion{
+    background-color: #d1aab9;
+}
+
+
+.coriander-leaves{
+    background-color: #f5e68b;
+}
+
+.salt{
+    background-color: #ffde59;
+}
+
+.lemon{
+    background-color: #ffff8b;
+}
+
+.mayo{
+    background-color: #d0c3f1;
+}
+
+.ketchup{
+    background-color: #b2a4ff;
+}
+
+.nachos{
+    background-color: #fff9ca;
+}
+
+.performance-facts {
+    border: 1px solid black;
+    margin: 10px;
+    width: 320px;
+    padding: 0.5rem;
+  }
+  
+.performance-facts__title {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0 0 0.25rem 0;
+  }
+.performance-facts__header {
+    border-bottom: 10px solid black;
+    padding: 0 0 0.25rem 0;
+    margin: 0 0 0.5rem 0;
+  }
+
+.blank-cell {
+      width: 1rem;
+      border-top: 0;
+    }
+    .thick-row > td, tr {
+        border-top-width: 5px;
+      }
+  .small-info {
+    font-size: 0.7rem;
+  }
+  
+.text-center {
+    text-align: center;
+  }
+  .thick-end {
+    border-bottom: 10px solid black;
+  }
+  .thin-end {
+    border-bottom: 1px solid black;
+  }
+  
